@@ -51,7 +51,7 @@ class Agent():
         self.t_step = 0
 
         self.__model = model
-        print("Model: " + self.__model)
+        print("\nModel: " + self.__model)
 
     @property
     def model(self):
