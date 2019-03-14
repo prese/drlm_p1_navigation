@@ -76,7 +76,7 @@ By using Dueling DQN, the agent was able to train itself as follows:
 
 ### 2 Run the trained Models
 
-By using the both algorithms, I got the following results, when I run the trained agents:
+When I run the trained agents for the both algorithms, I got the following results:
 
 ```    
     Model: QNetwork
