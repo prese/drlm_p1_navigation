@@ -98,6 +98,6 @@ DuelingDQN and QNetwork were used to train the agent for collecting bananas. The
 
 Possible improvements could achieved by using The [Rainbow](https://arxiv.org/abs/1710.02298) algorithm in a combination with:  
 
- - [Dueling DQN](https://arxiv.org/abs/1511.06581)   [Prioritized
-   experience replay](https://arxiv.org/abs/1511.05952)  
-   [Distributional DQN](https://arxiv.org/abs/1710.10044)
+ - [Dueling DQN](https://arxiv.org/abs/1511.06581)   
+ - [Prioritized experience replay](https://arxiv.org/abs/1511.05952)  
+ - [Distributional DQN](https://arxiv.org/abs/1710.10044)
