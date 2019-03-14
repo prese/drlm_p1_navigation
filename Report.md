@@ -51,8 +51,8 @@ By using QN, the agent was able to train itself as follows:
 
 ### 1.2 Dueling DQN  with replay buffer
 The second implemented algorithm was a DuelingDQN.
-The idea behind a DuelingDQN is to use two streams. One for the state value function **V(s)** and one that estimates the
-advantage vor each action **A(s,a)**. The desired Q-values are obtained by combining the state and
+The idea behind a DuelingDQN is to use two streams. One for the state value function **V(s)** and one that estimates the  
+advantage vor each action **A(s,a)**. The desired Q-values are obtained by combining the state and  
 advantage values **Q(s,a) = V(s) + A(s,a)**.
 
 By using Dueling DQN, the agent was able to train itself as follows:
@@ -78,7 +78,7 @@ By using Dueling DQN, the agent was able to train itself as follows:
 
 By using the both algorithms, I got the following results, when I run the trained agents:
 
-```
+```    
     Model: QNetwork
     Solved after 299 iterations. 	Total reward: 3.00
     Episode 1	Average Score: 3.00
@@ -95,7 +95,9 @@ the DuelingDQN is superior to the QNetwork on the total reward achieved by the a
 ### 4 Ideas for Future Work
 
 DuelingDQN and QNetwork were used to train the agent for collecting bananas. The training performance and the total reward for the agent are not bad, but improvable.
-Possible improvements could achieved by using The [Rainbow](https://arxiv.org/abs/1710.02298) algorithm in a combination with:
-[Dueling DQN](https://arxiv.org/abs/1511.06581)
-[Prioritized experience replay](https://arxiv.org/abs/1511.05952)
-[Distributional DQN](https://arxiv.org/abs/1710.10044)
+
+Possible improvements could achieved by using The [Rainbow](https://arxiv.org/abs/1710.02298) algorithm in a combination with:  
+
+ - [Dueling DQN](https://arxiv.org/abs/1511.06581)   [Prioritized
+   experience replay](https://arxiv.org/abs/1511.05952)  
+   [Distributional DQN](https://arxiv.org/abs/1710.10044)
